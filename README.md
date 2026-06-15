@@ -65,4 +65,5 @@ Based on the visualized trends, I proposed four strategic corporate initiatives:
 ## 📂 How to Run This Project
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   git clone [https://github.com/muhammad-zain-f15/Telecom-Customer-Churn-Analysis.git]
+   (https://github.com/muhammad-zain-f15/Telecom-Customer-Churn-Analysis.git)
