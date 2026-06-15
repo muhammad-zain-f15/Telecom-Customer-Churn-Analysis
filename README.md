@@ -17,12 +17,13 @@ As a **Junior Data Analyst**, my objective was to clean the raw data, perform ex
 ## 🛠️ My Role & Analysis Workflow
 In this project, I took ownership of the complete data analysis lifecycle:
 
-1. **Data Cleaning & Preprocessing:** * Handled missing/empty values in structural columns like `TotalCharges`.
+1. **Data Cleaning & Preprocessing:**
+   * Handled blank values in structural columns like `TotalCharges`.
    * Adjusted data types to ensure proper numerical and categorical alignment.
-2. **Exploratory Data Analysis (EDA):**
-   * Plotted **Histograms** to analyze distribution frequencies for baseline core metrics (Tenure, Monthly Charges, and Total Charges).
+3. **Exploratory Data Analysis (EDA):**
+   * Plotted **Histograms** to analyze distribution frequency for baseline core metric (Tenure).
    * Leveraged **Countplots with hue separations** (`Churn` vs. `No Churn`) to identify localized friction points across account attributes.
-3. **Insight Synthesis:**
+4. **Insight Synthesis:**
    * Converted raw counts into proportional operational percentages to make insights highly digestible for executive-level presentations.
 
 ---
@@ -33,7 +34,7 @@ Through extensive visual pattern analysis, I uncovered three high-risk operation
 
 ### 1. Contractual Structures & Onboarding Fractures
 * **Month-to-Month Contracts:** Acting as the single largest churn vector, these fluid accounts lack long-term structural barriers or financial incentives to stay.
-* **The 9-Month Inflection Window:** The first quartile ($25\%$) of the subscriber base experiences a critical risk window between $0\text{ to }9\text{ months}$ of tenure, revealing an early-stage retention bottleneck.
+* **The 9-Month Inflection Window:** The first quartile ($25\%$)% of the subscriber base experiences a critical risk window between $0\text{ to }9\text{ months}$ of tenure, revealing an early-stage retention bottleneck.
 
 ### 2. Product Portfolio & Technology Disconnections
 * **Fiber Optic Infrastructure:** Despite delivering superior bandwidth, Fiber Optic subscribers exhibit a significantly higher propensity to churn than standard DSL users, highlighting potential issues with onboarding, localized service delivery, or pricing.
@@ -56,14 +57,17 @@ Based on the visualized trends, I proposed four strategic corporate initiatives:
 
 ## 🚀 Technical Stack Used
 * **Language:** Python
-* **Libraries:** * `pandas` & `numpy` (Data manipulation)
+* **Libraries:**
+  * `pandas` & `numpy` (Data manipulation)
   * `matplotlib.pyplot` & `seaborn` (Advanced data visualization)
 * **Environment:** Jupyter Notebook
 
 ---
 
 ## 📂 How to Run This Project
-1. Clone this repository:
+1. Download the dataset [Kaggle Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+2. Clone this repository:
    ```bash
-   git clone [https://github.com/muhammad-zain-f15/Telecom-Customer-Churn-Analysis.git]
-   (https://github.com/muhammad-zain-f15/Telecom-Customer-Churn-Analysis.git)
+   git clone https://github.com/muhammad-zain-f15/Telecom-Customer-Churn-Analysis.git
+3. Make sure the dataset and jupyter notebook is in the same folder.
+  
